@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styleLogin.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+
+
+  <title>Login</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="img"><img src="images/Login.png" alt="logo_bg" />
+      <a href="index.html" class="home">Back</a>
+    </div>
+
+    <div class="container">
+      <div class="link-container">
+        <a id="firstA" href="#" onclick="changeForm(0)">Login</a>
+        <a id="firstB" href="#" onclick="changeForm(1)">Register</a>
+      </div>
+
+      <div class="login forms form-style">
+        <form action="#" onsubmit="return validations_Login()">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" /><br />
+          <label for="pasw">Password</label>
+          <input type="password" name="pasw" id="pasw" /><br />
+          <button class="btn_login">LogIn</button>
+        </form>
+      </div>
+
+      <div class="register forms hidden">
+        <form action="" onsubmit="return validations_Register()">
+          <label for="name">Firstname</label>
+          <input type="text" name="name" id="name" /><br />
+          <label for="lname">Lastname</label>
+          <input type="text" name="lname" id="lname" /><br />
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" /><br />
+          <label for="pw">Password</label>
+          <input type="password" name="pw" id="pw" /><br />
+          <button>Register</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>

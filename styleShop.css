@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Products{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;   
+}
+
+.Products ul {
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+
+}
+.Products li {
+    list-style: none;
+    margin: 0 auto;
+    height: 35px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.Products .line {
+    width: 40%;
+    height: 2px;
+    margin: 0 auto;
+    background-color: rgb(153, 148, 148);
+}
+
+.Products .sofaCollection, .LampCollection, .VaseCollection, .bedsCollection {
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+
+.Products .sofaCollection div, .LampCollection div, .VaseCollection div, .bedsCollection div {
+  height: 500px;
+  width: 30%;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+
+h3{
+    font-size: 25px;
+    margin: 10%;
+}
+
+.Products img{
+    width: 100%;
+    height: 250px;
+}
+
+.Products button {
+    height: 35px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin: 15%;
+    border-radius: 10px;
+
+}
+
+.Products li a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+
+}
+
+li a:hover{
+    transition: 0.5s ease-in-out;
+    background-color: #dbd8d8;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.Products button:hover{
+    width: 80px;
+    height: 25px;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+  
+
+
